@@ -1,0 +1,150 @@
+body{
+    background-image: url("/image4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Home{
+    font-size: 5em;
+    margin-top: 100px;
+}
+.parent-div{
+    height: 55px;
+    background-color: rgb(63, 232, 173);
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(63, 13, 110);
+}
+
+table.GeneratedTable {
+    width: 80%;
+    margin-top: 40px;
+    background-color: yellow;
+    border-collapse: collapse;
+    border-width: 5px;
+    border-style: groove;
+    color: #000000;
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 5px;
+    text-align: center;
+    border-color: red;
+    border-style: groove;
+    padding: 10px;
+  }
+  th{
+    font-size: 1.4em;
+  }
+  td{
+    font-size: 1.25em;
+  }
+  table.GeneratedTable thead {
+    background-color: plum;
+  }
+  .edit{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #btn-add{
+   
+    margin-top: 40px;
+    margin-left: -140px;
+    
+  }
+  .edit-div{
+    width: 70vw;
+    height: 400px;
+    margin: auto;
+    /* background-color: #F57328; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+  input{
+    width: 25vw;
+    height: 45px;
+    margin: 50px;
+    font-size: 1.25em;
+    background-color: paleturquoise;
+    text-align: center;
+    border: 2px solid rgb(59, 59, 59);
+    border-radius: 5px;
+    position: relative;
+
+  }
+  input:active,input:focus {
+    font-size: 13px;
+    border: 2px solid rgb(255, 13, 0);
+    outline: none; 
+    background-color: #ffffff;
+  }
+
+  .button {
+    width: 180px;
+    text-align: center;
+  backface-visibility: hidden;
+  position: relative;
+  left: 280px;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#f9f9f9 0%,#e0e0e0 100%);
+  border-radius: 100px;
+  border: 0.5px solid rgba(0,0,0,0.2);
+  border-width: 0.5px 0.5px 0.5px 0.5px;
+  padding: 4px 22px 5px 22px;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.6),0px 0px 5px rgba(255,255,255,1),0px 1px 0px 3px rgba(0,0,0,0.2),inset 0px 1px 0px rgba(255,255,255,1);
+    color: rgb(222, 5, 5);
+  font-size: 17px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+  .button > div {
+    color: rgb(133, 125, 125);
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button > i {
+    font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }
+  .button > .ld {
+    font-size: initial
+  }
+
+  .btn-cancel{
+    width: 170px;
+    height: 39px;
+    border-radius: 35px;
+    font-weight: bold;
+    background-color: #da0a75;
+    color: white;
+    border: none;
+    margin-left: 320px;
+  }
+  .btn-cancel:hover{
+    color: rgb(32, 32, 32);
+  }
+  .button:hover{
+    color: rgb(22, 92, 231);
+  }
